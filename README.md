@@ -113,7 +113,7 @@ $ rbenv local 2.0.0-p481 && katon add 'rails server --port $PORT'
 Depending on your version manager, you may need to add environment variables.
 
 ```bash
-$ rvm use ruby-2.0.0-p576 && katon add 'bundle exec unicorn' --env GEM_PATH
+$ rvm use ruby-2.0.0-p576 && katon add 'bundle exec unicorn' --env GEM_PATH --env GEM_HOME
 # Will use GEM_PATH previously set by rvm
 ```
 
